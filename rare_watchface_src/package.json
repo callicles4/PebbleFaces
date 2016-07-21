@@ -1,0 +1,40 @@
+{
+    "author": "Robot Storage",
+    "dependencies": {},
+    "keywords": [],
+    "name": "rare_watchface",
+    "pebble": {
+        "capabilities": [
+            ""
+        ],
+        "displayName": "RARE_WATCHFACE",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/rare_watchface",
+                    "name": "rare_watchface",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "6737aa70-519b-4ef4-b8f0-8d3938e523bb",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}

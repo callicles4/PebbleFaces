@@ -1,0 +1,65 @@
+{
+    "author": "Robot Storage",
+    "dependencies": {},
+    "keywords": [],
+    "name": "spaceface1",
+    "pebble": {
+        "capabilities": [
+            ""
+        ],
+        "displayName": "SpaceFace1",
+        "enableMultiJS": false,
+        "messageKeys": {},
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/space_img2.png",
+                    "menuIcon": true,
+                    "name": "space_img2",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/atom_img3.bmp",
+                    "memoryFormat": "Smallest",
+                    "name": "atom_img3",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/atom_img2.png",
+                    "memoryFormat": "Smallest",
+                    "name": "atom_img2",
+                    "spaceOptimization": "storage",
+                    "targetPlatforms": [
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/atom_img.png",
+                    "memoryFormat": "SmallestPalette",
+                    "name": "atom_img",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "3e8bee75-e9f2-40d7-84b7-cbdd2ed2eb2c",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.1.0"
+}
